@@ -1,0 +1,14 @@
+body {
+	font-family: "Courier New";
+}
+.side{
+	float: left;
+	padding: 20px;
+	border-right: solid;
+}
+.content{
+	padding: 20px;
+}
+code{
+	background-color: #fefefe;
+}
