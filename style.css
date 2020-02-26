@@ -1,14 +1,33 @@
 body {
 	font-family: "Courier New";
+	margin: auto;
+	padding: 0px;
+}
+.standard-font {
+	font-size: 18px;
 }
 .side{
 	float: left;
 	padding: 20px;
 	border-right: solid;
+	height: 100%;
 }
 .content{
 	padding: 20px;
+	width: 50%;
+	float: left;
 }
 code{
 	background-color: #fefefe;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	height: 200px;
+	background: linear-gradient(0deg, rgba(255,241,214,1) 10%, rgba(255,255,255,1) 60%);
+}
+.logo{
+	font-size: 30px;
+	transform: rotate(-5deg);
+	color: orange;
 }
